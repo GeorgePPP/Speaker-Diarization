@@ -1,0 +1,82 @@
+{
+    "status": "success",
+    "session_id": "an4_diarize_test",
+    "transcription": "eleven twenty seven fifty seven october twenty four nineteen seventy",
+    "speaker_count": 2,
+    "words": [
+        {
+            "word": "eleven",
+            "start_time": 0.28,
+            "end_time": 0.68,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "twenty",
+            "start_time": 0.88,
+            "end_time": 0.92,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "seven",
+            "start_time": 1.32,
+            "end_time": 1.36,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "fifty",
+            "start_time": 1.92,
+            "end_time": 1.96,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "seven",
+            "start_time": 2.32,
+            "end_time": 2.36,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "october",
+            "start_time": 3.08,
+            "end_time": 3.44,
+            "speaker": "speaker_1"
+        },
+        {
+            "word": "twenty",
+            "start_time": 3.56,
+            "end_time": 3.6,
+            "speaker": "speaker_1"
+        },
+        {
+            "word": "four",
+            "start_time": 3.88,
+            "end_time": 3.92,
+            "speaker": "speaker_1"
+        },
+        {
+            "word": "nineteen",
+            "start_time": 4.24,
+            "end_time": 4.6,
+            "speaker": "speaker_1"
+        },
+        {
+            "word": "seventy",
+            "start_time": 4.72,
+            "end_time": 5.04,
+            "speaker": "speaker_1"
+        }
+    ],
+    "sentences": [
+        {
+            "speaker": "speaker_0",
+            "start_time": "0.07",
+            "end_time": 2.36,
+            "text": "eleven twenty seven fifty seven"
+        },
+        {
+            "speaker": "speaker_1",
+            "start_time": 3.08,
+            "end_time": 5.04,
+            "text": "october twenty four nineteen seventy"
+        }
+    ]
+}

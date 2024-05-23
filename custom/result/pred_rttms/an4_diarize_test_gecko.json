@@ -1,0 +1,81 @@
+{
+    "schemaVersion": 2.0,
+    "monologues": [
+        {
+            "speaker": {
+                "name": null,
+                "id": "speaker_0"
+            },
+            "terms": [
+                {
+                    "start": 0.28,
+                    "end": 0.68,
+                    "text": "eleven",
+                    "type": "WORD"
+                },
+                {
+                    "start": 0.88,
+                    "end": 0.92,
+                    "text": "twenty",
+                    "type": "WORD"
+                },
+                {
+                    "start": 1.32,
+                    "end": 1.36,
+                    "text": "seven",
+                    "type": "WORD"
+                },
+                {
+                    "start": 1.92,
+                    "end": 1.96,
+                    "text": "fifty",
+                    "type": "WORD"
+                },
+                {
+                    "start": 2.32,
+                    "end": 2.36,
+                    "text": "seven",
+                    "type": "WORD"
+                }
+            ]
+        },
+        {
+            "speaker": {
+                "name": null,
+                "id": "speaker_1"
+            },
+            "terms": [
+                {
+                    "start": 3.08,
+                    "end": 3.44,
+                    "text": "october",
+                    "type": "WORD"
+                },
+                {
+                    "start": 3.56,
+                    "end": 3.6,
+                    "text": "twenty",
+                    "type": "WORD"
+                },
+                {
+                    "start": 3.88,
+                    "end": 3.92,
+                    "text": "four",
+                    "type": "WORD"
+                },
+                {
+                    "start": 4.24,
+                    "end": 4.6,
+                    "text": "nineteen",
+                    "type": "WORD"
+                },
+                {
+                    "start": 4.72,
+                    "end": 5.04,
+                    "text": "seventy",
+                    "type": "WORD"
+                }
+            ]
+        }
+    ]
+}

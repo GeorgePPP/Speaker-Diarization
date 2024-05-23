@@ -1,0 +1,490 @@
+{
+    "status": "success",
+    "session_id": "pzm12_segment_downmix_1",
+    "transcription": "e well it's happened it's happened so it just but it's it's a lot of data it's compy from one place on to anotherce tape i didn not want to take som archiving and then i'm going to delete files so that will give us ten gigabytes of free space and yeah and so one that that will be done like in about two hours and so at that point we'll be able to record five more meetings so",
+    "speaker_count": 1,
+    "words": [
+        {
+            "word": "e",
+            "start_time": 1.2,
+            "end_time": 1.24,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "well",
+            "start_time": 2.12,
+            "end_time": 2.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it's",
+            "start_time": 2.32,
+            "end_time": 2.52,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "happened",
+            "start_time": 2.56,
+            "end_time": 2.92,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it's",
+            "start_time": 3.64,
+            "end_time": 3.84,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "happened",
+            "start_time": 3.88,
+            "end_time": 4.2,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "so",
+            "start_time": 4.2,
+            "end_time": 4.24,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it",
+            "start_time": 4.32,
+            "end_time": 4.36,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "just",
+            "start_time": 4.56,
+            "end_time": 4.68,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "but",
+            "start_time": 4.92,
+            "end_time": 4.96,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it's",
+            "start_time": 5.12,
+            "end_time": 5.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it's",
+            "start_time": 5.4,
+            "end_time": 5.56,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "a",
+            "start_time": 5.6,
+            "end_time": 5.64,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "lot",
+            "start_time": 5.72,
+            "end_time": 5.92,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "of",
+            "start_time": 5.96,
+            "end_time": 6.0,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "data",
+            "start_time": 6.08,
+            "end_time": 6.32,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "it's",
+            "start_time": 6.36,
+            "end_time": 6.52,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "compy",
+            "start_time": 6.56,
+            "end_time": 6.84,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "from",
+            "start_time": 6.88,
+            "end_time": 7.0,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "one",
+            "start_time": 7.04,
+            "end_time": 7.12,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "place",
+            "start_time": 7.16,
+            "end_time": 7.32,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "on",
+            "start_time": 7.36,
+            "end_time": 7.4,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "to",
+            "start_time": 7.76,
+            "end_time": 7.8,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "anotherce",
+            "start_time": 7.88,
+            "end_time": 8.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "tape",
+            "start_time": 8.52,
+            "end_time": 8.76,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "i",
+            "start_time": 9.48,
+            "end_time": 9.52,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "didn",
+            "start_time": 9.56,
+            "end_time": 9.72,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "not",
+            "start_time": 9.76,
+            "end_time": 9.8,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "want",
+            "start_time": 10.08,
+            "end_time": 10.24,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "to",
+            "start_time": 10.32,
+            "end_time": 10.36,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "take",
+            "start_time": 10.4,
+            "end_time": 10.68,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "som",
+            "start_time": 10.8,
+            "end_time": 11.08,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "archiving",
+            "start_time": 11.16,
+            "end_time": 11.56,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "and",
+            "start_time": 11.64,
+            "end_time": 11.68,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "then",
+            "start_time": 11.72,
+            "end_time": 11.84,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "i'm",
+            "start_time": 11.84,
+            "end_time": 12.0,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "going",
+            "start_time": 12.0,
+            "end_time": 12.16,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "to",
+            "start_time": 12.16,
+            "end_time": 12.2,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "delete",
+            "start_time": 12.24,
+            "end_time": 12.64,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "files",
+            "start_time": 12.88,
+            "end_time": 13.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "so",
+            "start_time": 13.44,
+            "end_time": 13.48,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "that",
+            "start_time": 13.56,
+            "end_time": 13.6,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "will",
+            "start_time": 13.76,
+            "end_time": 13.88,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "give",
+            "start_time": 13.92,
+            "end_time": 14.12,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "us",
+            "start_time": 14.28,
+            "end_time": 14.32,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "ten",
+            "start_time": 14.8,
+            "end_time": 14.92,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "gigabytes",
+            "start_time": 15.08,
+            "end_time": 15.76,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "of",
+            "start_time": 15.84,
+            "end_time": 15.88,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "free",
+            "start_time": 15.96,
+            "end_time": 16.2,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "space",
+            "start_time": 16.24,
+            "end_time": 16.6,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "and",
+            "start_time": 18.08,
+            "end_time": 18.12,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "yeah",
+            "start_time": 19.04,
+            "end_time": 19.24,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "and",
+            "start_time": 19.4,
+            "end_time": 19.44,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "so",
+            "start_time": 19.52,
+            "end_time": 19.56,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "one",
+            "start_time": 19.72,
+            "end_time": 19.88,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "that",
+            "start_time": 20.36,
+            "end_time": 20.4,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "that",
+            "start_time": 20.6,
+            "end_time": 20.64,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "will",
+            "start_time": 20.76,
+            "end_time": 20.92,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "be",
+            "start_time": 20.96,
+            "end_time": 21.0,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "done",
+            "start_time": 21.08,
+            "end_time": 21.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "like",
+            "start_time": 21.4,
+            "end_time": 21.44,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "in",
+            "start_time": 22.12,
+            "end_time": 22.16,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "about",
+            "start_time": 22.28,
+            "end_time": 22.52,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "two",
+            "start_time": 22.56,
+            "end_time": 22.72,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "hours",
+            "start_time": 22.88,
+            "end_time": 23.2,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "and",
+            "start_time": 23.4,
+            "end_time": 23.44,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "so",
+            "start_time": 23.6,
+            "end_time": 23.64,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "at",
+            "start_time": 24.72,
+            "end_time": 24.88,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "that",
+            "start_time": 24.92,
+            "end_time": 24.96,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "point",
+            "start_time": 25.08,
+            "end_time": 25.28,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "we'll",
+            "start_time": 25.32,
+            "end_time": 25.52,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "be",
+            "start_time": 25.52,
+            "end_time": 25.56,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "able",
+            "start_time": 25.6,
+            "end_time": 25.76,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "to",
+            "start_time": 25.76,
+            "end_time": 25.8,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "record",
+            "start_time": 25.84,
+            "end_time": 26.16,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "five",
+            "start_time": 26.24,
+            "end_time": 26.36,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "more",
+            "start_time": 26.44,
+            "end_time": 26.6,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "meetings",
+            "start_time": 26.68,
+            "end_time": 27.04,
+            "speaker": "speaker_0"
+        },
+        {
+            "word": "so",
+            "start_time": 27.12,
+            "end_time": 27.16,
+            "speaker": "speaker_0"
+        }
+    ],
+    "sentences": [
+        {
+            "speaker": "speaker_0",
+            "start_time": "0.0",
+            "end_time": 27.16,
+            "text": "e well it's happened it's happened so it just but it's it's a lot of data it's compy from one place on to anotherce tape i didn not want to take som archiving and then i'm going to delete files so that will give us ten gigabytes of free space and yeah and so one that that will be done like in about two hours and so at that point we'll be able to record five more meetings so"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{"audio_filepath": "/home/george/Desktop/NeMo/custom/IS1009b.wav", "duration": 50, "label": "infer", "text": "_", "offset": 0}
+{"audio_filepath": "/home/george/Desktop/NeMo/custom/IS1009b.wav", "duration": 50.63, "label": "infer", "text": "_", "offset": 49.37}
+{"audio_filepath": "/home/george/Desktop/NeMo/custom/IS1009b.wav", "duration": 50.63, "label": "infer", "text": "_", "offset": 99.37}
+{"audio_filepath": "/home/george/Desktop/NeMo/custom/IS1009b.wav", "duration": 50.63, "label": "infer", "text": "_", "offset": 149.37}
+{"audio_filepath": "/home/george/Desktop/NeMo/custom/IS1009b.wav", "duration": 40.63, "label": "infer", "text": "_", "offset": 199.37}
