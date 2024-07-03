@@ -1,0 +1,44 @@
+import pandas as pd
+
+def create_question_df(company_dict, assets_df, questions_df):
+    """
+    To create a one-row-one-question table.
+    Params:
+        company_dict: dict of {doctype: [company_list]}
+        assets_df: pd.DataFrame, columns: company, pdf, sector, doctype
+        questions_df: pd.DataFrame, columns: box, question, sequence
+    """
+    # Initialize lists to hold the repeated values
+    companies = []
+    pdfs = []
+    sectors = []
+    doctypes = []
+    num_questions = len(questions_df)
+    
+    # Helper function to get unique value
+    def get_unique_value(df, company, column):
+        return df[df['company'] == company][column].unique()[0]
+
+    # Process each doctype and its associated company list
+    for doctype, company_ls in company_dict.items():
+        # Filter assets_df for the current doctype
+        sliced_df = assets_df[assets_df['doctype'] == doctype]
+        
+        # Extract unique pdf and sector for each company
+        pdf_ls = [get_unique_value(sliced_df, company, 'pdf') for company in company_ls]
+        sector_ls = [get_unique_value(sliced_df, company, 'sector') for company in company_ls]
+        
+        # Repeat each value for the number of questions
+        companies += [company for company in company_ls for _ in range(num_questions)]
+        pdfs += [pdf for pdf in pdf_ls for _ in range(num_questions)]
+        sectors += [sector for sector in sector_ls for _ in range(num_questions)]
+        doctypes += [doctype for _ in range(len(company_ls) * num_questions)]
+
+    # Extend the questions_df
+    repeated_questions_df = pd.concat([questions_df] * sum(len(company_ls) for company_ls in company_dict.values()), ignore_index=True)
+    repeated_questions_df['company'] = companies
+    repeated_questions_df['pdf'] = pdfs
+    repeated_questions_df['sector'] = sectors
+    repeated_questions_df['doctype'] = doctypes
+
+    return repeated_questions_df
