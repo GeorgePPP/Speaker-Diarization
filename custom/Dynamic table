@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table with Seq</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table id="dynamicTable">
+    <thead>
+        <tr>
+            <th>Seq</th>
+            <th>Box</th>
+            <th>Column 3</th>
+            <th>Column 4</th>
+            <th>Column 5</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Existing rows (if any) can be added here using Jinja templating -->
+        {% for row in rows %}
+        <tr>
+            <td>{{ row.seq }}</td>
+            <td>
+                <select class="box-select">
+                    <option value="Box1" {% if row.box == 'Box1' %}selected{% endif %}>Box1</option>
+                    <option value="Box2" {% if row.box == 'Box2' %}selected{% endif %}>Box2</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </td>
+            <td>{{ row.column3 }}</td>
+            <td>{{ row.column4 }}</td>
+            <td>{{ row.column5 }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<button onclick="addRow(document.getElementById('dynamicTable'))">Add Row</button>
+
+<script>
+    // Global dictionary to track the sequence index for each 'box'
+    let boxSequence = {};
+
+    // Function to initialize the dictionary based on existing rows
+    function initializeBoxSequence(table) {
+        const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+        for (let row of rows) {
+            const boxValue = row.querySelector('.box-select').value;
+            const seqValue = parseInt(row.cells[0].innerText);
+            if (!boxSequence[boxValue]) {
+                boxSequence[boxValue] = seqValue;
+            } else {
+                boxSequence[boxValue] = Math.max(boxSequence[boxValue], seqValue);
+            }
+        }
+    }
+
+    // Call the initialize function on page load
+    document.addEventListener('DOMContentLoaded', function () {
+        initializeBoxSequence(document.getElementById('dynamicTable'));
+    });
+
+    // Function to add a new row
+    function addRow(table) {
+        const tbody = table.getElementsByTagName('tbody')[0];
+        const newRow = tbody.insertRow();
+
+        // Create cells
+        const seqCell = newRow.insertCell(0);
+        const boxCell = newRow.insertCell(1);
+        const col3Cell = newRow.insertCell(2);
+        const col4Cell = newRow.insertCell(3);
+        const col5Cell = newRow.insertCell(4);
+
+        // Create the dropdown for 'box'
+        const selectBox = document.createElement('select');
+        selectBox.classList.add('box-select');
+        const option1 = document.createElement('option');
+        option1.value = 'Box1';
+        option1.text = 'Box1';
+        const option2 = document.createElement('option');
+        option2.value = 'Box2';
+        option2.text = 'Box2';
+        // Add more options as needed
+
+        selectBox.appendChild(option1);
+        selectBox.appendChild(option2);
+        boxCell.appendChild(selectBox);
+
+        // Get the selected box value
+        const selectedBox = selectBox.value;
+
+        // Update the sequence number for the selected box
+        if (!boxSequence[selectedBox]) {
+            boxSequence[selectedBox] = 1;
+        } else {
+            boxSequence[selectedBox]++;
+        }
+
+        // Set the sequence number
+        seqCell.innerText = boxSequence[selectedBox];
+
+        // Set other columns (this example sets them to default values, modify as needed)
+        col3Cell.innerText = 'Default 3';
+        col4Cell.innerText = 'Default 4';
+        col5Cell.innerText = 'Default 5';
+
+        // Event listener to update sequence on dropdown change
+        selectBox.addEventListener('change', function () {
+            const oldBox = selectedBox;
+            const newBox = selectBox.value;
+
+            // Decrement the sequence of the old box if it has changed
+            if (boxSequence[oldBox] > 0) {
+                boxSequence[oldBox]--;
+            }
+
+            // Update the sequence of the new box
+            if (!boxSequence[newBox]) {
+                boxSequence[newBox] = 1;
+            } else {
+                boxSequence[newBox]++;
+            }
+
+            // Update the seq cell
+            seqCell.innerText = boxSequence[newBox];
+        });
+    }
+</script>
+
+</body>
+</html>
