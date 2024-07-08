@@ -1,0 +1,44 @@
+// Global dictionary to track the sequence index for each 'box'
+let boxSequence = {};
+
+// Function to initialize the dictionary based on existing rows
+function initializeBoxSequence(table) {
+    const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    for (let row of rows) {
+        const boxValue = row.querySelector('.box-select').value;
+        const seqValue = parseInt(row.querySelector('.seq').innerText);
+        if (!boxSequence[boxValue]) {
+            boxSequence[boxValue] = seqValue;
+        } else {
+            boxSequence[boxValue] = Math.max(boxSequence[boxValue], seqValue);
+        }
+    }
+}
+
+// Function to get the sequence number based on the table and user-chosen box
+function getSequenceNumber(table, chosenBox) {
+    const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+    let highestSeq = 0;
+
+    for (let row of rows) {
+        const boxValue = row.querySelector('.box-select').value;
+        if (boxValue === chosenBox) {
+            const seqValue = parseInt(row.querySelector('.seq').innerText);
+            if (seqValue > highestSeq) {
+                highestSeq = seqValue;
+            }
+        }
+    }
+
+    return highestSeq + 1;
+}
+
+// Example usage
+document.addEventListener('DOMContentLoaded', function () {
+    const table = document.getElementById('questions');
+    initializeBoxSequence(table);
+
+    const chosenBox = 'Box1'; // Example user-chosen box
+    const seqNumber = getSequenceNumber(table, chosenBox);
+    console.log(`Next sequence number for ${chosenBox}: ${seqNumber}`);
+});
